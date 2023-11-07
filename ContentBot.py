@@ -31,7 +31,7 @@ def search(query):
         "q": query
     })
     headers = {
-        'X-API-KEY': 'cc5b112aabf61b762a5602660be2328578e34acd',
+        'X-API-KEY': '<serper API here>',
         'Content-Type': 'application/json'
     }
 
@@ -69,7 +69,7 @@ def scrape(url: str):
 
     # Send the POST request
     response = requests.post(
-        "https://chrome.browserless.io/content?token=73daa512-1752-4922-bc0d-fa028cdfa0e4", headers=headers, data=data_json)
+        "https://chrome.browserless.io/content?token=<browserless api here>", headers=headers, data=data_json)
 
 
     # Check the response status code
